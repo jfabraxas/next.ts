@@ -1,6 +1,5 @@
+import { NextApiHandler } from 'next';
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-
-import { NextApiHandler } from '../../node_modules/next/types/index';
 
 const handler: NextApiHandler = (req, res) => {
   // Open Chrome DevTools to step through the debugger!
